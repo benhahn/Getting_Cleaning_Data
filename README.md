@@ -2,10 +2,9 @@
 This project is for the Getting and Cleaning Data course on Coursera to tidy a dataset of Human Activity Recognition using Smartphones
 from the Machine Learning Repository here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. 
 
-The run_analysis.R file does the following:
+In order for this project to work, data from this dataset must be unzipped and loaded into the R working directory. The file structure from this unzipped file should not be modified: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-- Retrieves and unzips data from this dataset: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-- From this dataset, uses the following data files to create a tidy dataset by doing to following:
+The run_analysis.R file does the following:
 
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
